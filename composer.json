@@ -1,0 +1,22 @@
+{
+    "name": "spectre/myapp",
+    "authors": [
+        {
+            "name": "kevin",
+            "email": "kpekpekevin57@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Router\\":"routes/",
+            "App\\":"app/",
+            "Database\\":"database/"
+
+        }
+    },
+    "require": {
+        "symfony/var-dumper": "^5.4",
+        "filp/whoops": "2.3.1",
+        "vlucas/valitron": "1.4.5"
+    }
+}
